@@ -1,5 +1,5 @@
 <?php
-if($argc < 2)
+if($argc < 3)
 {
 	printf('Usage : php %s in.srt time_difference [out.srt]%s', $argv[0], PHP_EOL);
 	exit;
